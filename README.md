@@ -1,6 +1,6 @@
 # V1 Voice Demo Test
 
-V1 Voice Demo Test is a dark, browser-based multimodal assistant interface for experimenting with voice, text, and image inputs. It can capture speech, display a live transcript, accept typed messages and image attachments, and read responses aloud using the voices available on the user's device.
+V1 Voice Demo Test is a sandbox environment, and shouldn't be used for deployment. It heavily relies on ChatGPT and a subscription and cannot currently function without that. It can capture speech, display a live transcript, accept typed messages and image attachments, and read responses aloud using the voices available on the user's device.
 
 ## Live Demo
 
@@ -54,7 +54,3 @@ pnpm build
 - `app/layout.tsx` contains page and social-sharing metadata.
 - `public/og.png` is the social-preview image.
 - `.openai/hosting.json` contains the Sites deployment configuration.
-
-## Privacy
-
-The demo does not add application-level storage for microphone recordings or image attachments. Browser speech-recognition services may process audio according to the browser vendor's own policies.
